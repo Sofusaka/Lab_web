@@ -4,6 +4,13 @@ header{
     border-radius:7px;
 
 }
+
+main{
+
+    display: grid;
+    grid-template-columns:  20% 63% 17%;
+    grid-template-rows: 1fr;
+}
 header p, header h1 {
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,9 +20,7 @@ header p, header h1 {
 
 .main-info{
     padding: 10px;
-    margin: 10px 215px;
-    
-    
+    grid-area: 1/2/1/3;
 }
 
 aside p, .main-info p, aside h3, .main-info h2, .main-info h3, .main-info h1 {
@@ -24,25 +29,19 @@ aside p, .main-info p, aside h3, .main-info h2, .main-info h3, .main-info h1 {
 }
 
 aside{
-
+    
+    margin: 5px;
     background-color:rgb(60, 180, 250);
+    grid-area: 1/3/1/4;
     color: white;
     width: 180px;
-    height: 440px;
-    float: right;
-    position: absolute;
-    bottom: 0;
-    top: 100px;
-    right: 10px;
     border-radius: 5px;
     padding: 20px;
     
 }
 
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 29%;
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 4px;
@@ -50,21 +49,16 @@ footer{
     background-color: rgb(223, 217, 217);
     font-size: 70%;
     border-radius: 5px;
-    margin: 10px;
+    margin: 6px;
 }
 
 .botones{
-    position: absolute;
-    bottom: 73%;
-    width: 20%;
-    float: left;
-    
+    grid-area: 1/1/2/2;
     
 }
 .boton{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 170px;
-    float: left;
+    min-width: 100px;
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     list-style-type: none;

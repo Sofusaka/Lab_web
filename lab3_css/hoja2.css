@@ -15,7 +15,7 @@ header{
 main{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 70% 30%;;
+    grid-template-rows: 70% 30%;
     background-color: white;
     padding: 10px;   
 }
@@ -23,6 +23,7 @@ main{
 .main-info{
 grid-area: 1/1/2/2;
 }
+
 
 
 
