@@ -13,18 +13,18 @@ header p, header h1 {
 
 .main-info{
     padding: 10px;
-    margin: 0px 210px;
+    margin: 10px 215px;
     
     
 }
 
-aside p, .main-info p, aside h3, .main-info h2, .main-info h3{
+aside p, .main-info p, aside h3, .main-info h2, .main-info h3, .main-info h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 }
 
 aside{
-   
+
     background-color:rgb(60, 180, 250);
     color: white;
     width: 180px;
@@ -36,6 +36,7 @@ aside{
     right: 10px;
     border-radius: 5px;
     padding: 20px;
+    
 }
 
 footer{
@@ -49,22 +50,25 @@ footer{
     background-color: rgb(223, 217, 217);
     font-size: 70%;
     border-radius: 5px;
-    width: 100%;
+    margin: 10px;
 }
+
 .botones{
-    position: fixed;
-    bottom: 75%;
-    
+    position: absolute;
+    bottom: 73%;
     width: 20%;
+    float: left;
+    
+    
 }
 .boton{
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 170px;
     float: left;
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     list-style-type: none;
-    padding: 2px;
+    padding: 4px;
     cursor: pointer;
 }
 .boton:hover{
@@ -76,5 +80,9 @@ background-color: #ffffff;
     background-color:#04AA6D;
     color: white;
     font-weight:bold;
- }
+}
+
+cite{
+    text-decoration: underline;
+}
 
